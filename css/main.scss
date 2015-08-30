@@ -1,0 +1,55 @@
+---
+---
+@import "variables";
+@import "mixins";
+@import "formats";
+@import "icons";
+@import "header";
+@import "footer";
+
+@import "home";
+
+html, body {
+	height:100%;
+	background:$background-color;
+}
+
+a {
+	color:$link-color;
+	text-decoration:none;
+}
+
+a:hover {
+	color:$link-hover-color;
+}
+
+.container {
+	max-width:$container-width;
+}
+
+.default {
+	padding:$container-padding-top 0;
+}
+
+.wrap {
+	border:3px $border-color solid;
+}
+
+.content {
+	background:$header-color;
+	padding:30px;
+}
+
+.img {
+	@include img_class;
+	border:1px #000 solid;
+}
+
+.img-no-border {
+	@include img_class;
+
+}
+
+@import "mqueries";
+
+

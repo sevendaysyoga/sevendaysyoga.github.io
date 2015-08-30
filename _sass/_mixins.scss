@@ -1,0 +1,12 @@
+@mixin center {
+	width:100%;
+	text-align:center;
+	margin:0;
+}
+
+@mixin img_class {
+	display:block;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}

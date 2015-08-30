@@ -1,0 +1,14 @@
+.bottom-bar {
+	width:100%;
+	background-color:$footer-color;
+	color:$footer-font-color;
+	border-top:1px $border-color solid;
+}
+
+.footer {
+	height:$footer-height;
+}
+
+.source {
+	padding:10px 0
+}
