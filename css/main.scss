@@ -35,11 +35,17 @@ a:hover {
 
 .wrap {
 	border:3px $border-color solid;
+	box-shadow:3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .content {
 	background:$header-color;
-	padding:30px;
+	padding:10px;
+}
+
+.row {
+	padding:0;
+	margin:0;
 }
 
 .img {
