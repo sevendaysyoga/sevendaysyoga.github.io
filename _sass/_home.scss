@@ -1,15 +1,10 @@
 .welcome {
 	text-align:center;
 	vertical-align:middle;
-	margin-left:20px;
+	margin-left:40px;
+	color:$link-color;
 
-	h2 {
-		margin:0;
-		padding:0;
-
-	}
-
-	h3 {
+	h2,h3 {
 		margin:0;
 		padding:0;
 	}
