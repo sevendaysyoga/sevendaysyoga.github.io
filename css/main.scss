@@ -51,6 +51,7 @@ a:hover {
 .img {
 	@include img_class;
 	border:1px #000 solid;
+	box-shadow:2px 2px 5px 1px #222;
 }
 
 .img-no-border {
