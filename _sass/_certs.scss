@@ -1,0 +1,30 @@
+.certs {
+	width:100%;
+	margin:10px 0;
+}
+
+#ryt {
+	display:inline-block;
+	float:left;
+	margin:10px 10px;
+
+}
+
+#cpr {
+	display:inline-block;
+	text-align:center;
+	font-size:32px;
+	color:#902B2F;
+	float:right;
+	margin:10px 10px;
+}
+
+#certified {
+	font-size:12px;
+	color:#000;
+
+	p {
+		margin:0;
+		padding:0;
+	}
+}

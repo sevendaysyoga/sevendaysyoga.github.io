@@ -3,42 +3,10 @@
 	background-color:$footer-color;
 	color:$footer-font-color;
 	border-top:1px $border-color solid;
+	border-bottom-right-radius:$border-radius;
+	border-bottom-left-radius:$border-radius;
 }
 
-.certs {
-	width:100%;
-}
-
-.inner-certs {
-	width:100%;
-	text-align:right;
-	padding:10px;
-}
-
-#ryt {
-	display:inline-block;
-	margin:0 20px;
-
-}
-
-#cpr {
-	display:inline-block;
-	vertical-align:top;
-	text-align:center;
-	font-size:32px;
-	color:#902B2F;
-	margin:0 20px;
-}
-
-#certified {
-	font-size:12px;
-	color:#000;
-
-	p {
-		margin:0;
-		padding:0;
-	}
-}
 
 .copyright {
 

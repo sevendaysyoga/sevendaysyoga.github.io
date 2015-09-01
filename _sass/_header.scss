@@ -2,6 +2,8 @@ header {
 	padding:12px 0;
 	background-color:$header-color;
 	border-bottom:1px $border-color solid;
+	border-top-right-radius:$border-radius;
+	border-top-left-radius:$border-radius;
 }
 
 .logo {

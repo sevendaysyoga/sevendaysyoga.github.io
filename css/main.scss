@@ -6,6 +6,7 @@
 @import "icons";
 @import "header";
 @import "footer";
+@import "certs";
 
 @import "home";
 
@@ -35,6 +36,7 @@ a:hover {
 
 .wrap {
 	border:3px $border-color solid;
+	border-radius:$border-radius
 	// box-shadow:3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
