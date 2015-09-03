@@ -56,11 +56,8 @@
 	i {
 		margin:0 10px;
 	}
-}
 
 }
-
-@media (max-width:530px) {
 
 	body {
 		margin:0;
@@ -73,5 +70,9 @@
 	.default {
 		border:none;
 		border-radius:0px;
+		box-shadow:none;
 	}
 }
+
+
+

@@ -3,6 +3,9 @@
 	vertical-align:middle;
 	margin-left:40px;
 	color:$link-color;
+	font-size:36px;
+	font-weight:200;
+	font-family: 'Great Vibes', cursive;
 
 	h2,h3 {
 		margin:0;
@@ -20,9 +23,22 @@
 	margin:0 auto;
 	padding-top:50px;
 
+	h2 {
+		margin-top:20px;
+		margin-bottom:5px;
+		font-family: 'Great Vibes', cursive;
+		font-size:1.3em;
+		color:$link-color;
+		text-align:center;
+	}
+
 	h3 {
 		text-align:center;
 		margin-bottom:0;
+		margin-top:10px;
+		font-family: 'Great Vibes', cursive;
+		font-weight: 800;
+		font-size:1.5em;
 	}
 }
 
