@@ -50,11 +50,28 @@
 
 	.icons {
 	font-size:32px;
-	padding:5px;
+	padding-top:10px;
+	padding-bottom:20px;
 
 	i {
 		margin:0 10px;
 	}
 }
 
+}
+
+@media (max-width:530px) {
+
+	body {
+		margin:0;
+	}
+
+	.container {
+		background:#fff;
+	}
+
+	.default {
+		border:none;
+		border-radius:0px;
+	}
 }
