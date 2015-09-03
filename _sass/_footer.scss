@@ -1,17 +1,29 @@
 .bottom-bar {
 	width:100%;
+	// height:$footer-height;
 	background-color:$footer-color;
 	color:$footer-font-color;
 	border-top:1px $border-color solid;
 	border-bottom-right-radius:$border-radius;
 	border-bottom-left-radius:$border-radius;
-}
+	}
 
 
 .copyright {
+	vertical-align:middle;
+
 
 	p {
-		margin:35px;
-		padding:0;
+		margin:0;
+		padding:20px;
+	}
+}
+
+.icons {
+	font-size:32px;
+	padding:10px 10px;
+
+	i {
+		margin:0 10px;
 	}
 }
