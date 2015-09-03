@@ -34,22 +34,23 @@ a:hover {
 .default {
 	border:1px $border-color solid;
 	border-radius:$border-radius;
-	box-shadow:0px 2px 10px 3px #ccc;
+	box-shadow:1px 1px 10px 2px #E3E3E3;
 }
 
 .content {
 	background:$body-color;
 	padding:$content-padding;
+	padding-top:10px;
 }
 
-.img {
-	@include img_class;
+.img-border {
+	@include img;
 	border:1px #000 solid;
 	box-shadow:2px 2px 5px 1px #333;
 }
 
-.img-no-border {
-	@include img_class;
+.img {
+	@include img;
 
 }
 

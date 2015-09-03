@@ -1,6 +1,53 @@
 .cl {
 	border-radius:5px;
 	margin:5px 0;
-	box-shadow:0px 2px 5px 1px #efefef;
+	box-shadow:1px 2px 10px 2px #efefef;
 	padding: 15px;
+}
+
+.cl-text {
+	margin-top:20px;
+	padding-top:5px;
+	border-top:1px solid #efefef;
+	text-align:center;
+
+	.title {
+		font-size:24px;
+		color:#ccc;
+		font-weight:bold;
+		text-align: left;
+	}
+
+	.location {
+		color:#000;
+		font-weight:bold;
+		text-align: left;
+	}
+
+}
+
+.img-cl {
+	max-width:300px;
+}
+
+.sign-up {
+	text-align:center;
+	border: 0 none;
+	width:100px;
+	margin:20px 0px;
+  border-radius:2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  padding:5px 15px;
+  font-weight: bold;
+  line-height: 20px;
+  background: none repeat scroll 0 0 $link-color;
+  color: #fff;
+
+  &:hover {
+  	background:$link-hover-color;
+  }
 }

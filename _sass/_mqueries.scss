@@ -72,6 +72,31 @@
 		border-radius:0px;
 		box-shadow:none;
 	}
+
+	.cl-container {
+		margin:20px 0;
+	}
+}
+
+@media (max-width:992px) {
+	.cl-container {
+		margin-bottom:60px;
+	}
+
+	.cl-text{
+
+
+	.title {
+
+		text-align: center;
+	}
+
+	.location {
+		text-align: center;
+	}
+
+}
+
 }
 
 
