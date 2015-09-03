@@ -8,12 +8,12 @@
 @import "footer";
 @import "certs";
 
-
 //pages
 @import "home";
 @import "about";
 @import "classes";
 @import "events";
+@import "pricing";
 
 body {
 	margin:20px 0;
@@ -44,7 +44,7 @@ a:hover {
 .content {
 	background:$body-color;
 	padding:$content-padding;
-	padding-top:10px;
+	padding-top:20px;
 }
 
 .img-border {

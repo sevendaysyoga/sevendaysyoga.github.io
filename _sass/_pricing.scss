@@ -1,0 +1,38 @@
+.pr {
+	border-radius:5px;
+	margin:5px 0;
+	border:1px solid #e3e3e3;
+	// box-shadow:1px 2px 10px 2px #efefef;
+	padding: 20px;
+
+	h1 {
+		font-size:1.5em;
+		color:#222;
+		text-align:center;
+	}
+
+	ul {
+		list-style:none;
+		padding:0;
+
+		li {
+			padding:5px 0;
+		}
+	}
+}
+
+.price {
+	width:100%;
+	padding:5px 0;
+	border-top:1px solid #efefef;
+
+}
+
+
+.cost {
+	float:right;
+	&:before {
+		content:"$ ";
+		opacity:0.2;
+	}
+}
