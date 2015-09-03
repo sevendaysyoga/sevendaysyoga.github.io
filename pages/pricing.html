@@ -1,0 +1,57 @@
+---
+layout: page
+title: Pricing - SevenDaysYoga
+heading: Pricing
+permalink: /pricing.html
+---
+
+<div class = "row">
+	<div class = "col-md-4">
+		<div class="pr">
+			{% assign mat = site.data.prices[0] %}
+			<h1> {{ mat.class }}  </h1>
+			<div class="price">
+			1 hr <span class="cost">{{ mat.sixty }}</span></span>
+			</div>
+			<div class="price">
+			1.5 hr <span class="cost">{{ mat.ninety }}</span>
+			</div>
+			<div class="price">
+			Four 1 hr sessions <span class="cost">{{ mat.group_sixty }}</span>
+			</div>
+			<div class="price">
+			Four 1.5 hr sessions <span class="cost">{{ mat.group_ninety }}</span>
+			</div>
+		</div>
+	</div>
+	<div class = "col-md-4">
+		<div class="pr">
+			{% assign aerial = site.data.prices[1] %}
+			<h1> {{ mat.class }}  </h1>
+			<div class="price">
+			1 hr <span class="cost">{{ aerial.sixty }}</span></span>
+			</div>
+			<div class="price">
+			1.5 hr <span class="cost">{{ aerial.ninety }}</span>
+			</div>
+			<div class="price">
+			Four 1 hr sessions <span class="cost">{{ aerial.group_sixty }}</span>
+			</div>
+			<div class="price">
+			Four 1.5 hr sessions <span class="cost">{{ aerial.group_ninety }}</span>
+			</div>
+		</div>
+	</div>
+	<div class = "col-md-4">
+		<div class="pr">
+		{% assign workplace = site.data.prices[2] %} 
+			<h1>{{workplace.class}} </h1>
+			<div class="price">
+			$ {{workplace.per_person}} per person, minimum of {{workplace.minimum}}
+			</div>
+			<div class="price">
+			Series of multiple weeks are available for ${{workplace.series}} per person
+			</div>
+		</div>
+	</div>
+</div>

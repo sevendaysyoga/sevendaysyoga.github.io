@@ -1,0 +1,16 @@
+- class: "Mat Yoga"
+  sixty: "50"
+  ninety: "80"
+  group_sixty: "160"
+  group_ninety: "190"
+
+- class: "Aerial"
+  sixty: "80" 
+  ninety: "120"
+  group_sixty: "280"
+  group_ninety: "380"
+
+- class: "Workplace"
+  per_person: "8"
+  minimum: "5"
+  series: "7"
