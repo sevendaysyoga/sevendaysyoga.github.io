@@ -73,12 +73,7 @@
 		box-shadow:none;
 	}
 
-	.cl-container {
-		margin:20px 0;
-	}
-}
 
-@media (max-width:992px) {
 	.cl-container {
 		margin-bottom:60px;
 	}
@@ -96,6 +91,10 @@
 	}
 
 }
+}
+
+@media (max-width:992px) {
+
 
 }
 
