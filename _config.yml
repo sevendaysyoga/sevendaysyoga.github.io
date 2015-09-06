@@ -6,3 +6,5 @@ exclude: [vendor]
 markdown: kramdown
 redcarpet:
  extensions: ['tables', 'smart', 'with_toc_data', 'superscript']
+gems:
+  - jekyll-sitemap
