@@ -1,0 +1,36 @@
+- name: DDP Yoga Burn
+  img_path: /img/ddp.png
+  location: DDP Yoga Performance Center
+  time: Mondays 8am
+  link: https://ddpyoga.com/
+
+- name: DDP Yoga Power
+  img_path: /img/ddp.png
+  location: DDP Yoga Performance Center
+  time: Wednesdays 7am
+  link: https://ddpyoga.com/
+
+- name: Vinyasa Flow
+  img_path: /img/vita-prana.png
+  location: Vita-Prana Yoga
+  time: Wednesdays 6pm
+  link: http://vita-prana.com/
+
+- name: Classical
+  img_path: /img/vita-prana.png
+  location: Vita-Prana Yoga
+  time: Fridays 9:30am
+  link: http://vita-prana.com/
+
+- name: Intro to Aerial Yoga
+  img_path: /img/vita-prana.png
+  location: Vita-Prana Yoga
+  time: Fridays 11am
+  link: http://vita-prana.com/
+
+- name: Vinyasa Flow
+  img_path: /img/world-gym.png
+  location: World Gym Smyrna
+  time: Saturdays 10am
+  link: http://worldgymsmyrna.com/
+
